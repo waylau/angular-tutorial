@@ -10,7 +10,7 @@
 Node.js 下载地址：<https://nodejs.org/en/download/> 
 
 
-Node.js 最新版本为 8.11.3（包含了 npm 5.6.0）。为了能够享受最新的 Angular 开发所带来的乐趣，请安装最新版本的 Node.js 和 npm。
+Node.js 最新版本为 10.7.0（包含了 npm 6.1.0）。为了能够享受最新的 Angular 开发所带来的乐趣，请安装最新版本的 Node.js 和 npm。
 
 
 ![](../images/ide/ide-node-01.png)

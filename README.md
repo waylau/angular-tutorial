@@ -14,8 +14,8 @@ Let's [READ](SUMMARY.md)!
 本书涉及的相关技术及版本如下。
 
 * Angular 6.1.0
-* Node.js 8.11.3
-* npm 5.6.0
+* Node.js 10.7.0
+* npm 6.1.0
  
 ## Get Started 如何开始阅读
 
