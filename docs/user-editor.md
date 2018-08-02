@@ -115,9 +115,9 @@ src/app/user.ts 代码如下：
 
 
 ```ts
-export class Hero {
-  id: number;
-  name: string;
+export class User {
+    id: number;
+    name: string;
 }
 ```
 
