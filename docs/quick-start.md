@@ -60,7 +60,7 @@ npm WARN tar ENOENT: no such file or directory, open 'D:\workspaceGithub\angular
 
 执行以下命令，来启动应用。
 
-```
+```ts
 cd hello-world
 ng serve --open
 ```

@@ -10,7 +10,7 @@
 
 src目录结构如下：
 
-```
+```ts
 src
 │  browserslist
 │  favicon.ico
@@ -63,7 +63,7 @@ tslint.json | 额外的 Linting 配置。当运行 ng lint 时，它会供带有
 
 src/ 文件夹是项目的根文件夹之一。 其它文件是用来帮助你构建、测试、维护、文档化和发布应用的。它们放在根目录下，和 src/ 平级。
 
-```
+```ts
 D:.
 │  .editorconfig
 │  .gitignore
