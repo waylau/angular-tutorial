@@ -6,6 +6,7 @@
 * [用户管理](docs/user-management.md)
 * [修改 AppComponent 组件](docs/edit-app-component.md)
 * [用户编辑器](docs/user-editor.md)
+* [展示用户列表](docs/user-list.md)
 * [参考资料](docs/references.md)
 * To be continued ...未完待续...
 

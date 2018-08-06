@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { User } from '../user';
+import { USERS } from '../mock-users';
 
 @Component({
   selector: 'app-users',
@@ -9,11 +10,13 @@ import { User } from '../user';
 })
 export class UsersComponent implements OnInit {
 
-  user : User = {
-    id: 1,
-    name: '老卫'
-  };
+  selectedUser: User;
+  
+  onSelect(user: User): void {
+    this.selectedUser = user;
+  }
 
+  users = USERS;
 
   constructor() { }
 
