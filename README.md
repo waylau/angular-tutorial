@@ -23,7 +23,7 @@ Let's [READ](SUMMARY.md)!
 
 * <https://github.com/waylau/angular-tutorial/> 的 [SUMMARY.md](SUMMARY.md)（源码）
 * <http://waylau.gitbooks.io/angular-tutorial/> 点击 Read 按钮（同步更新，国内访问速度一般）
-* <http://git.oschina.net/waylau/angular-tutorial> 的 [SUMMARY.md](SUMMARY.md)（码云，手动同步，有所延时）
+* <https://gitee.com/waylau/angular-tutorial> 的 [SUMMARY.md](SUMMARY.md)（码云，手动同步，有所延时）
 
 ## Code 源码
 
