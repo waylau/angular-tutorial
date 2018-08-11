@@ -3,6 +3,7 @@
 * [Angular 介绍](docs/about-angular.md)
 * [Angular 开发环境搭建](docs/ide.md)
 * [快速开启第一个 Angular 应用](docs/quick-start.md)
+* [探索 Angular 应用](docs/explore-angular.md)
 * [用户管理](docs/user-management.md)
 * [修改 AppComponent 组件](docs/edit-app-component.md)
 * [用户编辑器](docs/user-editor.md)
