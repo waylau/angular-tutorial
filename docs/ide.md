@@ -10,7 +10,7 @@
 Node.js 下载地址：<https://nodejs.org/en/download/> 
 
 
-Node.js 最新版本为 10.7.0（包含了 npm 6.1.0）。为了能够享受最新的 Angular 开发所带来的乐趣，请安装最新版本的 Node.js 和 npm。
+Node.js 最新版本为 10.9.0（包含了 npm 6.2.0）。为了能够享受最新的 Angular 开发所带来的乐趣，请安装最新版本的 Node.js 和 npm。
 
 
 ![](../images/ide/ide-node-01.png)
@@ -60,7 +60,7 @@ C:\Users\Administrator\AppData\Roaming\npm\ng -> C:\Users\Administrator\AppData\
 npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\@angular\cli\node_modules\fsevents):
 npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
 
-+ @angular/cli@6.1.1
++ @angular/cli@6.1.5
 added 248 packages in 81.427s
 ```
 
