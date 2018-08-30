@@ -13,7 +13,7 @@ ng new hello-world
 ```
 
 
-其中`hello-world`是指定的应用的名词。
+其中`hello-world`是指定的应用的名称。
 
 
 详细过程如下：
