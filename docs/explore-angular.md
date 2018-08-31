@@ -56,7 +56,7 @@ main.ts | 这是应用的主要入口点。 使用JIT 编译器编译本应用�
 polyfills.ts | 不同的浏览器对 Web 标准的支持程度也不同。 腻子脚本（polyfill）能把这些不同点进行标准化。 你只要使用 core-js 和 zone.js 通常就够了，不过你也可以查看浏览器支持指南以了解更多信息。
 styles.css | 这里是你的全局样式。 大多数情况下，你会希望在组件中使用局部样式，以利于维护，不过那些会影响你整个应用的样式你还是需要集中存放在这里。
 test.ts | 这是单元测试的主要入口点。 它有一些你不熟悉的自定义配置，不过你并不需要编辑这里的任何东西。
-tsconfig.{app|spec}.json | TypeScript 编译器的配置文件。tsconfig.app.json 是为 Angular 应用准备的，而 tsconfig.spec.json 是为单元测试准备的。
+`tsconfig.{app|spec}.json` | TypeScript 编译器的配置文件。tsconfig.app.json 是为 Angular 应用准备的，而 tsconfig.spec.json 是为单元测试准备的。
 tslint.json | 额外的 Linting 配置。当运行 ng lint 时，它会供带有 Codelyzer 的 TSLint 使用。 Linting 可以帮你们保持代码风格的一致性。
 
 ## 根目录
