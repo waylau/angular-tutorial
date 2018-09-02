@@ -9,6 +9,7 @@
 * [用户编辑器](docs/user-editor.md)
 * [展示用户列表](docs/user-list.md)
 * [多组件化开发](docs/user-detail-componet.md)
+* [添加用户服务](docs/user-service.md)
 * [参考资料](docs/references.md)
 * To be continued ...未完待续...
 
