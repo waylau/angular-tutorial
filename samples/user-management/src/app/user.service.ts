@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { Observable, of } from 'rxjs';
 
+import { MessageService } from './message.service';
 import { User } from './user';
 import { USERS } from './mock-users';
 
@@ -10,9 +11,10 @@ import { USERS } from './mock-users';
 })
 export class UserService {
 
-  constructor() { }
+  constructor(private messageService: MessageService) { }
 
   getUsers(): Observable<User[]> {
+    this.messageService.add('UserService: 已经获取到用户列表！');
     return of(USERS);
   }
 }
