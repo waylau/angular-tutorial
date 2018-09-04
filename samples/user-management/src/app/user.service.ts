@@ -17,4 +17,9 @@ export class UserService {
     this.messageService.add('UserService: 已经获取到用户列表！');
     return of(USERS);
   }
+
+  getUser(id: number): Observable<User> {
+    this.messageService.add(`UserService: 已经获取到用户 id=${id}`);
+    return of(USERS.find(user => user.id === id));
+  }
 }
