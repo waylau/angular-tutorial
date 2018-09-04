@@ -14,6 +14,7 @@
 * [添加消息组件](docs/message-component.md)
 * [添加路由器](docs/route.md)
 * [添加仪表盘](docs/dashboard.md)
+* [导航到用户详情](docs/route-user-detail.md)
 * [参考资料](docs/references.md)
 * To be continued ...未完待续...
 

@@ -10,12 +10,6 @@ import { UserService } from '../user.service';
 })
 export class UsersComponent implements OnInit {
 
-  selectedUser: User;
-  
-  onSelect(user: User): void {
-    this.selectedUser = user;
-  }
-
   users: User[];
 
   constructor(private userService: UserService) { }
