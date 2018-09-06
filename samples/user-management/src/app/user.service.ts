@@ -14,6 +14,10 @@ export class UserService {
 
   private usersURL = 'api/users';
 
+  private httpOptions:Object = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  };
+
   constructor(  
     private http: HttpClient,
     private messageService: MessageService) { }
@@ -40,6 +44,40 @@ export class UserService {
         tap(_ => this.log(`fetched user id=${id}`)),
         catchError(this.handleError<User>(`getUser id=${id}`))
       );
+  }
+
+  updateUser (user: User): Observable<any> {
+    return this.http.put(this.usersURL, user, this.httpOptions).pipe(
+      tap(_ => this.log(`updated user id=${user.id}`)),
+      catchError(this.handleError<any>('updateUser'))
+    );
+  }
+
+  addUser (user: User): Observable<User> {
+    return this.http.post<User>(this.usersURL, user, this.httpOptions).pipe(
+      tap((user: User) => this.log(`added user id=${user.id}`)),
+      catchError(this.handleError<User>('addUser'))
+    );
+  }
+
+  deleteUser (user: User | number): Observable<User> {
+    const id = typeof user === 'number' ? user : user.id;
+    const url = `${this.usersURL}/${id}`;
+  
+    return this.http.delete<User>(url, this.httpOptions).pipe(
+      tap(_ => this.log(`deleted user id=${id}`)),
+      catchError(this.handleError<User>('deleteUser'))
+    );
+  }
+
+  searchUsers(term: string): Observable<User[]> {
+    if (!term.trim()) {
+      return of([]);
+    }
+    return this.http.get<User[]>(`${this.usersURL}/?name=${term}`).pipe(
+      tap(_ => this.log(`found Users matching "${term}"`)),
+      catchError(this.handleError<User[]>('searchUsers', []))
+    );
   }
 
   private handleError<T> (operation = 'operation', result?: T) {
