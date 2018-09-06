@@ -11,6 +11,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
+import { UserSearchComponent } from './user-search/user-search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     UsersComponent,
     UserDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    UserSearchComponent
   ],
   imports: [
     BrowserModule,
