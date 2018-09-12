@@ -202,7 +202,7 @@ button.clear {
 
 
 
-执行 `ng serve` 命名以启动应用。访问<http://localhost:4200/>滚动到底部，就会在消息区看到来自 HeroService 的消息。点击“清空”按钮，消息区不见了。
+执行 `ng serve` 命令以启动应用。访问<http://localhost:4200/>滚动到底部，就会在消息区看到来自 HeroService 的消息。点击“清空”按钮，消息区不见了。
 
 
 

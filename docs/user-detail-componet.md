@@ -1,7 +1,7 @@
 # 多组件化开发
 
 
-本节，要把原来的 UsersComponent 重构成为 UsersComponent、UserDetailComponent 两个组件。多组件开发的方式以下优化：
+本节，要把原来的 UsersComponent 重构成为 UsersComponent、UserDetailComponent 两个组件。多组件开发的方式具有以下优势：
 
 * 通过缩减 UsersComponent 的职责简化了该组件。
 * 可以把 UserDetailComponent 改进成一个功能丰富的用户编辑器，而不用改动父组件 UsersComponent。
@@ -111,7 +111,7 @@ export class UserDetailComponent implements OnInit {
 ## 编辑 users.component.html
 
 
-UserDetailComponent 的选择器是 'app-user-detail'。 把 <app-user-detail> 添加到 UsersComponent 模板 users.component.html 的底部，以便把用户详情的视图显示到那里。
+UserDetailComponent 的选择器是 'app-user-detail'。 把 `<app-user-detail>` 添加到 UsersComponent 模板 users.component.html 的底部，以便把用户详情的视图显示到那里。
 
 把 UsersComponent.selectedUser 绑定到该元素的 user 属性，就像这样：
 
@@ -124,7 +124,7 @@ UserDetailComponent 的选择器是 'app-user-detail'。 把 <app-user-detail> �
 
 这是一种单向数据绑定。从 UsersComponent 的 selectedUser 属性绑定到目标元素的 user 属性，并映射到了 UserDetailComponent 的 user 属性。
 
-现在，当用户在列表中点击某个用户时，selectedUser 就改变了。 当 selectedUser 改变时，属性绑定会修改 UserDetailComponent 的 user UserDetailComponent 就会显示这个新的用户信息。
+现在，当用户在列表中点击某个用户时，selectedUser 就改变了。 当 selectedUser 改变时，属性绑定会修改 UserDetailComponent 的 user属性，UserDetailComponent 就会显示这个新的用户信息。
 
 修改后的 UsersComponent 的模板 users.component.html 是这样的：
 
@@ -145,6 +145,6 @@ UserDetailComponent 的选择器是 'app-user-detail'。 把 <app-user-detail> �
 ## 运行
 
 
-执行 `ng serve` 命名以启动应用。效果如下：
+执行 `ng serve` 命令以启动应用。效果如下：
 
 ![](../images/user-detail/user-detail.jpg)

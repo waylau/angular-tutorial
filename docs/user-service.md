@@ -105,7 +105,7 @@ getUsers(): User[] {
 
 默认情况下，Angular CLI 命令 ng generate service 会通过给 @Injectable 装饰器添加元数据的形式，为该服务把提供商注册到根注入器上。
 
-如果你看看 UserService 紧前面的 @Injectable() 语句定义，就会发现 providedIn 元数据的值是 'root'：
+如果你看看 UserService 前面的 @Injectable() 语句定义，就会发现 providedIn 元数据的值是 'root'：
 
 ```ts
 @Injectable({

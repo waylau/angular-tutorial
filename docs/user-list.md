@@ -46,9 +46,9 @@ users = USERS;
 ```
 
 
-## 使用 *ngFor 列出这些用户
+## 使用 `*ngFor` 列出这些用户
 
-*ngFor 是一个 Angular 的复写器（repeater）指令。 它会为列表中的每项数据复写它的宿主元素。类似于 Java  或者 JavaScript 中的 for-each 循环。
+`*ngFor` 是一个 Angular 的复写器（repeater）指令。 它会为列表中的每项数据复写它的宿主元素。类似于 Java  或者 JavaScript 中的 for-each 循环。
 
 用法如下：
 
@@ -58,7 +58,7 @@ users = USERS;
 
 在这个例子中,
 
-* `<li>` 就是 *ngFor 的宿主元素
+* `<li>` 就是 ``*ngFor`` 的宿主元素
 * users 就是来自 UsersComponent 类的列表。
 * 当依次遍历这个列表时，user 会为每个迭代保存当前的用户象。
 
@@ -158,9 +158,9 @@ users = USERS;
 <li *ngFor="let user of users" (click)="onSelect(user)">
 ```
 
-click 外面的圆括号会让 Angular 监听这个 <li> 元素的 click 事件。 当用户点击 <li> 时，Angular 就会执行表达式 onSelect(user)。
+click 外面的圆括号会让 Angular 监听这个 <li> 元素的 click 事件。 当用户点击 `<li>` 时，Angular 就会执行表达式 onSelect(user)。
 
-onSelect() 是 UsersComponent 上的一个方法，接下来就会实现它。 Angular 会把所点击的 <li> 上的 user 对象传给它，这个 user 也就是前面在 *ngFor 表达式中定义的那个。
+onSelect() 是 UsersComponent 上的一个方法，接下来就会实现它。 Angular 会把所点击的 `<li>` 上的 user 对象传给它，这个 user 也就是前面在 `*ngFor` 表达式中定义的那个。
 
 
 修改 src/app/users/users.component.ts 把该组件的 user 属性改名为 selectedUser ，但不要为它赋值。 因为应用刚刚启动时并没有所选用户。
