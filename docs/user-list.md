@@ -39,7 +39,7 @@ export const USERS: User[] = [
 import { USERS } from '../mock-users';
 ```
 
-往类中添加一个 users 属性，这样可以暴露出这些英雄，以供绑定。
+往类中添加一个 users 属性，这样可以暴露出这些用户，以供后续绑定。
 
 ```ts
 users = USERS;
@@ -165,7 +165,7 @@ onSelect() 是 UsersComponent 上的一个方法，接下来就会实现它。 A
 
 修改 src/app/users/users.component.ts 把该组件的 user 属性改名为 selectedUser ，但不要为它赋值。 因为应用刚刚启动时并没有所选用户。
 
-添加如下 onSelect() 方法，它会把模板中被点击的英雄赋值给组件的 selectedUser 属性。
+添加如下 onSelect() 方法，它会把模板中被点击的用户赋值给组件的 selectedUser 属性。
 
 ```ts
 selectedUser: User;
@@ -218,7 +218,7 @@ ERROR TypeError: "_co.selectedUser is undefined"
 ```
 
 
-当 selectedUser 为 undefined 时，ngIf 从 DOM 中移除了用户详情。当选中一个用户时，selectedUser 也就有了值，并且 ngIf 把英雄的详情放回到 DOM 中。
+当 selectedUser 为 undefined 时，ngIf 从 DOM 中移除了用户详情。当选中一个用户时，selectedUser 也就有了值，并且 ngIf 把用户的详情放回到 DOM 中。
 
 效果如下：
 
@@ -241,7 +241,7 @@ Angular 的 CSS 类绑定机制让根据条件添加或移除一个 CSS 类变�
 [class.selected]="user === selectedUser"
 ```
 
-如果当前行的英雄和 selectedUser 相同，Angular 就会添加 CSS 类 selected，否则就会移除它。
+如果当前行的用户和 selectedUser 相同，Angular 就会添加 CSS 类 selected，否则就会移除它。
 
 完整代码如下：
 
