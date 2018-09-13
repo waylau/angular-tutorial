@@ -9,7 +9,7 @@
 
 除了把路由的 URL 粘贴到地址栏外，用户应该通过点击链接进行导航。
 
-添加一个 <nav> 元素，并在其中放一个链接 <a> 元素，当点击它时，就会触发一个到 UsersComponent 的导航。 修改过的 AppComponent 模板（src/app/app.component.html ）如下：
+添加一个 `<nav>` 元素，并在其中放一个 `<a>` 元素，当点击它时，就会触发一个到 UsersComponent 的导航。 修改过的 AppComponent 模板（src/app/app.component.html ）如下：
 
 ```ts
 <h1>{{title}}</h1>
@@ -205,7 +205,7 @@ export class AppRoutingModule { }
 
 ## 添加默认路由
 
-当应用启动时，浏览器的地址栏指向了网站的根路径。 它没有匹配到任何现存路由，因此路由器也不会导航到任何地方。 <router-outlet> 下方是空白的。
+当应用启动时，浏览器的地址栏指向了网站的根路径。 它没有匹配到任何现存路由，因此路由器也不会导航到任何地方。 `<router-outlet>` 下方是空白的。
 
 要让应用自动导航到这个仪表盘，请把下列路由添加到 AppRoutingModule.Routes 数组中。
 

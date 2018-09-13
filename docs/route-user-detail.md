@@ -17,7 +17,7 @@ UserDetailComponent 用于显示所选用户的详情。但目前的 UserDetails
 
 
 
-打开 UsersComponent 的模板文件（users/users.component.html），并从底部删除 <app-user-detail> 元素。
+打开 UsersComponent 的模板文件（users/users.component.html），并从底部删除 `<app-user-detail>` 元素。
 
 ## 添加用户详情到路由
 

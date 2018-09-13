@@ -1,6 +1,6 @@
 # 基于 HTTP 实现用户信息的 CURD
 
-本章节，我们将基于 基于 HTTP 实现用户信息的 CURD，即查询、修改、创建、删除用户。
+本章节，我们将基于 HTTP 实现用户信息的 CURD，即查询、修改、创建、删除用户。
 
 
 
@@ -257,7 +257,7 @@ searchUsers(term: string): Observable<User[]> {
 
 ### 为仪表盘添加搜索功能
 
-打开 DashboardComponent 的模板并且把用于搜索用户的元素 <app-user-search> 添加到 DashboardComponent 模板（src/app/dashboard/dashboard.component.html）的底部。
+打开 DashboardComponent 的模板并且把用于搜索用户的元素 `<app-user-search>` 添加到 DashboardComponent 模板（src/app/dashboard/dashboard.component.html）的底部。
 
 
 ```ts
@@ -275,7 +275,7 @@ searchUsers(term: string): Observable<User[]> {
 ```
 
 
-但目前，UserSearchComponent 还不存在，因此，Angular 找不到哪个组件的选择器能匹配上 <app-user-search>。
+但目前，UserSearchComponent 还不存在，因此，Angular 找不到哪个组件的选择器能匹配上 `<app-user-search>`。
 
 
 ### 创建 UserSearchComponent
