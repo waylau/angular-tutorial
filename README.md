@@ -28,7 +28,10 @@ Let's [READ](SUMMARY.md)!
 
 ## Code 源码
 
-书中所有示例源码，移步至<https://github.com/waylau/angular-tutorial>  `samples` 目录下
+书中所有示例源码，移步至<https://github.com/waylau/angular-enterprise-application-development-samples>  `samples` 目录下：
+
+* ch02/hello-world：第一个Angular应用
+* ch04/user-management：用户管理的例子
 
 ## Issue 意见、建议
 
