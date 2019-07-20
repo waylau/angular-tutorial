@@ -7,7 +7,7 @@ Let's [READ](SUMMARY.md)!
 
 《跟老卫学Angular》是一本关于 Angular 学习的开源书。利用业余时间写了本书，图文并茂，用大量实例带你一步一步走进 Angular 的世界。如有疏漏欢迎指正，欢迎提问。感谢您的参与！
 
-
+作为提升，也推荐阅读笔者的《[Angular企业级应用开发实战](https://github.com/waylau/angular-enterprise-application-development-samples)》。
 
 ## 涉及技术
 
